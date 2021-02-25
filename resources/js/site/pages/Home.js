@@ -7,7 +7,11 @@ import Footer from '../layouts/FooterComponent';
 function Home() {
     return (
         <>
-            <Banner />
+            <Banner 
+                url="/site/img/home-bg.jpg"
+                title="Title for the header"
+                subtitle="subtitle for the header"
+            />
             <PostPreview />
             <Footer />
         </>

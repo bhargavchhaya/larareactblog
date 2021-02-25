@@ -6,7 +6,11 @@ import Footer from '../layouts/FooterComponent';
 function ContactUs() {
     return (
         <>
-            <Banner />
+            <Banner 
+                url="/site/img/contact-bg.jpg"
+                title="Title for Contact"
+                subtitle="subtitle for the header"
+            />
             <PostPreview />
             <Footer />
         </>

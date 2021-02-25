@@ -1,6 +1,6 @@
 import React from 'react';
 import PostDetail from '../components/PostDetail';
-import Banner from '../layouts/BannerComponent';
+import PostBanner from '../layouts/PostBannerComponent';
 import Footer from '../layouts/FooterComponent';
 
 class Post extends React.Component {
@@ -11,7 +11,12 @@ class Post extends React.Component {
     render(){
         return (
             <>
-                <Banner />
+                <PostBanner 
+                    url="/site/img/post-bg.jpg"
+                    title="Title for the Post"
+                    subtitle="subtitle for the Post"
+                    meta="Desc for the Post"
+                />
                 <PostDetail />
                 <Footer />
             </>
