@@ -10,20 +10,20 @@ import Post from '../pages/Post';
 function App() {
     return (
         <>
-        <BrowserRouter>
         <div>
             <Navbar />
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/contact-us' component={ContactUs} />
-            <Route exact path="/:slug" component={Post} />
+            <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact-us' component={ContactUs} />
+                <Route path="/:slug" component={Post} />
+            </Switch>
         </div>
-        </BrowserRouter>
         </>
     );
 }
 export default App;
 
 if (document.getElementById('mainapp')) {
-    ReactDOM.render(<App />, document.getElementById('mainapp'));
+    ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('mainapp'));
 }

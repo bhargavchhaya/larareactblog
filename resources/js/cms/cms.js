@@ -12,4 +12,4 @@ require('../common/bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+require('./layouts/MainApp');
