@@ -16,7 +16,7 @@ class PostBannerComponent extends React.Component{
                             <div className="post-heading">
                                 <h1>{this.props.title}</h1>
                                 <h2 className="subheading">{this.props.subtitle}</h2>
-                                <span class="meta">{this.props.meta}</span>
+                                <span className="meta">{this.props.meta}</span>
                             </div>
                         </div>
                     </div>

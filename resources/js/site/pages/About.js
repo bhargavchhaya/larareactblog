@@ -11,7 +11,6 @@ function About() {
                 title="Title for About"
                 subtitle="subtitle for the header"
             />
-            <PostPreview />
             <Footer />
         </>
     );

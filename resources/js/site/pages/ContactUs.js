@@ -11,7 +11,6 @@ function ContactUs() {
                 title="Title for Contact"
                 subtitle="subtitle for the header"
             />
-            <PostPreview />
             <Footer />
         </>
     );

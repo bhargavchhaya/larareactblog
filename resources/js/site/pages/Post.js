@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter} from 'react-router-dom';
 import PostDetail from '../components/PostDetail';
 import PostBanner from '../layouts/PostBannerComponent';
 import Footer from '../layouts/FooterComponent';
@@ -17,11 +18,13 @@ class Post extends React.Component {
                     subtitle="subtitle for the Post"
                     meta="Desc for the Post"
                 />
-                <PostDetail />
+                <PostDetail
+                    url="/site/img/post-sample-image.jpg"
+                />
                 <Footer />
             </>
         );
     }
 }
 
-export default Post;
+export default withRouter(Post);
