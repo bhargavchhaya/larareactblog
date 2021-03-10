@@ -70061,6 +70061,8 @@ __webpack_require__.r(__webpack_exports__);
 
 function PostPreview() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "post-preview"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/Title-for-the-Post"
@@ -70072,7 +70074,7 @@ function PostPreview() {
     className: "post-meta"
   }, "Posted by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#"
-  }, "Start Bootstrap"), " on September 24, 2014"));
+  }, "Start Bootstrap"), " on September 24, 2014")));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (PostPreview);
