@@ -12,4 +12,6 @@
 */
 Route:: domain(parse_url(config('app.url'), PHP_URL_HOST))->name('site.')->group(function(){
     Route::get('/', 'SiteController@index');
+    Route::get('/about', 'SiteController@about');
+    Route::get('/contact-us', 'SiteController@contact');
 });
